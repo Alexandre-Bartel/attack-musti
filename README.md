@@ -1,6 +1,6 @@
 # What is it?
 
-This is a concrete example of the exploitation of an invalid object initialisation vulnerability in the Java virtual machine.
+This is a concrete example of the exploitation of an invalid object initialisation vulnerability in Oracle's implemention of the Java virtual machine 1.8 update 112.
 
 # How to run it?
 
