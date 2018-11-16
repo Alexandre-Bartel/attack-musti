@@ -1,6 +1,6 @@
 # What is it?
 
-This is a concrete example of the exploitation of an invalid object initialisation vulnerability.
+This is a concrete example of the exploitation of an invalid object initialisation vulnerability in the Java virtual machine.
 
 # How to run it?
 
