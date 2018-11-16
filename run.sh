@@ -25,9 +25,9 @@ fi
 JAVA="${JDK_8_112}/bin/java"
 
 echo "-> Launching with security manager..."
-echo " -- when exploiting the vulnerability, the sanbox check is bypassed:"
+echo " -- when exploiting the vulnerability, the sandbox check is bypassed:"
 $JAVA -Djava.security.manager -cp "${WD}/bin/" Exploitation
-echo " -- when NOT exploiting the vulnerability, the sanbox check is executed:"
+echo " -- when NOT exploiting the vulnerability, the sandbox check is executed:"
 $JAVA -Djava.security.manager -cp "${WD}/bin/" NoExploitation
 
 echo "-> done."
